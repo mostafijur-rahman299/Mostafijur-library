@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <script>
+        $(document).ready(function(){
+
+          $('#fadeib').click(function(){
+            $('.afade').fadeIn('slow');
+          });
+
+          $('#fadeob').dblclick(function(){
+            $('.afade').fadeOut(1000);
+          });
+
+          $('#fadetb').mouseenter(function(){
+            $('.afade').fadeTo('slow',0.4);
+          });
+
+          $('#fadetgb').mouseleave(function(){
+            $('.afade').fadeToggle('slow');
+          });
+
+        });
+    </script>
+
+    <button id = "fadeib" type="button" name="button">FadeIn</button>
+    <button id = "fadeob" type="button" name="button">fadeOut</button>
+    <button id = "fadetb" type="button" name="button">FadeTo</button>
+    <button id = "fadetgb" type="button" name="button">FadeToggle</button>
+
+
+    <div class="afade">
+      <h1>We recommend that you load?</h1>
+
+      <p>We recommend that you load libraries from the
+        CDN via HTTPS, even if your own website only uses
+         HTTP. Nowadays, performance is fast, and caching
+          works just the same. The CDN's files are served
+          with CORS and Timing-Allow
+        headers and allowed to be cached for 1 year.</p>
+    </div>
+
+  </body>
+</html>

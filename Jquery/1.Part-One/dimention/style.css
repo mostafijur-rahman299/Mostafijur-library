@@ -1,0 +1,28 @@
+/**
+ * @Date:   2018-10-07T00:56:40+06:00
+ * @Last modified time: 2018-11-04T21:31:21+06:00
+ */
+
+
+
+.outside{
+  border-top:50px solid gray;
+  border-bottom:40px solid grey;
+  border-left:20px solid grey;
+  border-right:20px solid grey;
+  height: 500px;
+  width:600px;
+  margin-left: 400px;
+  margin-top:40px;
+}
+.inside{
+  margin-top: 100px;
+  background: gray;
+  color:white;
+  height: 200px;
+  padding:40px;
+  margin-left:30px;
+  margin-right: 30px;
+  font-size: 40px;
+  border:10px solid black;
+}

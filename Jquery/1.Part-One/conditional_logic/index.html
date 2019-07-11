@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script>
+      $(document).ready(function(){
+        $('#button').click(function(event){
+          var isValid = true
+          $('input[type=text]#required').each(function(){
+            if($(this).val()==''){
+              var isValid=false
+              $(this).css({
+                'background':'red',
+
+              })
+            }
+            else{
+              $(this).css({
+                'background':'',
+
+              })
+            }
+          })
+          if(isValid == true){
+            event.preventDefault()
+          }
+          else{
+            
+          }
+        })
+      })
+    </script>
+
+    <div class="outside">
+      <div id="state">
+
+      </div>
+      <form class="" action="index.html" method="post">
+        <table>
+          <tr>
+            <td><label for="">First name</label></td>
+            <td><input type="text" id="required"name="" value=""></td>
+          </tr>
+          <tr>
+            <td><label for="">Last name</label></td>
+            <td><input type="text" name="" value=""></td>
+          </tr>
+          <tr>
+            <td><label for="">Email Address</label></td>
+            <td><input id="required"type="text" name="" value=""></td>
+          </tr>
+          <tr>
+            <td><label for="">Website</label></td>
+            <td><input type="text" name="" value=""></td>
+          </tr>
+          <tr>
+            <td><label for=""></label></td>
+            <td><input id='button'type="submit" name="" value="submit"></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+  </body>
+</html>

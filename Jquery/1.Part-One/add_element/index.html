@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <script>
+        $(document).ready(function(){
+          $('#b').click(function(){
+            $('#appen').append(' Mahmud')
+          })
+          $('#b2').click(function(){
+            $('#prepen').prepend('Sajib ')
+          })
+          $('#b3').click(function(){
+            $('#before').before('Sajib ')
+          })
+          $('#b4').click(function(){
+            $('#after').after(' Mahmud')
+          })
+
+        });
+
+    </script>
+    <button id = "b" type="button" name="button">Append</button>
+    <button id = "b2" type="button" name="button">Prepend</button>
+    <button id = "b3" type="button" name="button">before</button>
+    <button id = "b4" type="button" name="button">after</button>
+
+
+      <div class="inside">
+        <p id ="appen">Sajib</p>
+        <p id ="prepen">Mahmud</p>
+        <p id ="before">Mahmud</p>
+        <p id ="after">Sajib</p>
+      </div>
+
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <script>
+        $(document).ready(function(){
+
+          $('#b').click(function(){
+            $('p').addClass('text text1');
+          })
+
+          $('#b2').click(function(){
+            $('p').removeClass('text text1');
+          })
+
+          $('#b3').click(function(){
+            $('p').toggleClass('text text1');
+          })
+
+        });
+
+    </script>
+    <button id = "b" type="button" name="button">AddClass</button>
+    <button id = "b2" type="button" name="button">RemoveClass</button>
+    <button id = "b3" type="button" name="button">ToggleClass</button>
+      <div class="inside">
+        <p id ="appen">Hey This is sajib mahmud</p>
+      </div>
+
+  </body>
+</html>

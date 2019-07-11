@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <script>
+        $(document).ready(function(){
+
+          $('#b').click(function(){
+            $('.outside').css('background','red').slideUp(5000).slideDown(5000);
+          });
+
+        });
+
+    </script>
+
+    <button id = "b" type="button" name="button">Slide</button>
+
+    <div class="outside">
+      <h1>A pacifier or dummy</h1>
+      <p>A pacifier or dummy and, also known as a
+        binky, soother or teether, is a rubber, plastic
+        or silicone nipple given to an infant to suck upon.
+         In its standard appearance it has
+        a teat, mouth shield, and handle. Wikipedia</p>
+    </div>
+
+  </body>
+</html>

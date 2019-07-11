@@ -1,0 +1,13 @@
+.outside{
+  position: relative;
+}
+.inside{
+  position: absolute;
+  background:green;
+  color:red;
+  height:200px;
+  width:200px;
+  border: 10px solid black;
+  border-radius: 500px;
+  text-align: center;
+}

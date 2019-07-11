@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+
+    <script>
+
+      $(document).ready(function(){
+
+        $('#Hide').click(function(){
+          $('.a').hide()
+        });
+
+        $('#Show').mouseenter(function(){
+          $('.a').show()
+        });
+
+        $('#toggle').dblclick(function(){
+          $('.a').toggle()
+        })
+      });
+
+    </script>
+
+    <button id ="Hide" type="button" name="button">Hide</button>
+    <button id = "Show" type="button" name="button">Show</button>
+    <button id = "toggle" type="button" name="button">Toggle</button>
+
+    <div class="a">
+      <h3>The jQuery Live Project</h3>
+      <p>
+    The Google Hosted Libraries is a stable, reliable,
+     high-speed, globally available content distribution network
+      for the most popular, open-source JavaScript libraries.
+
+      Google works directly with the key stakeholders for each
+      library effort and accepts the latest versions as they are released.</p>
+
+    </div>
+
+  </body>
+</html>

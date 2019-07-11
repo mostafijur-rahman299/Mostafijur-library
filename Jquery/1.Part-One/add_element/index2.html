@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <script>
+        $(document).ready(function(){
+
+          $('#b').click(function(){
+            $('.inside').remove();
+          });
+
+          $('#b2').click(function(){
+            $('.inside').empty()
+          })
+
+
+
+        });
+
+    </script>
+    <button id = "b" type="button" name="button">Remove</button>
+    <button id = "b2" type="button" name="button">Empty</button>
+
+
+      <div class="inside">
+        <p id ="appen">Sajib</p>
+        <p id ="prepen">Mahmud</p>
+        <p id ="before">Mahmud</p>
+        <p id ="after">Sajib</p>
+      </div>
+
+  </body>
+</html>
