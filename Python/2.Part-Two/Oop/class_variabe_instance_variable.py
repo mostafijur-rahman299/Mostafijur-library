@@ -1,8 +1,12 @@
 
 
 class Alien:
+    
+    # class Variable
     legs=6
+    
     def __init__(self,name):
+        # instance variable
         self.name=name
 
 alien=Alien('Maven')
