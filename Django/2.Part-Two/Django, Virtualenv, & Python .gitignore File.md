@@ -1,4 +1,5 @@
 # Django, Virtualenv, & Python .gitignore File
+We use .gitignore files often. Here's an example you might consider using in your projects:
 
 ```
 .DS_STORE
