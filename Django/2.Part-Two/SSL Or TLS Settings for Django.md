@@ -3,7 +3,8 @@
 Let's make your Django project's settings exactly what we do here. Once you do that, you'll have a production.py file. 
 That's where we'll be working.
 
-    Make sure your host has the ability to secure sites like these do: Heroku, Elastic Beanstalk, Linode, Webfaction, and Digital Ocean.
+    Make sure your host has the ability to secure sites like these do: Heroku, Elastic Beanstalk, 
+        Linode, Webfaction, and Digital Ocean.
     You have your SSL/TLS Security Certificate installed (on one of those services)
     
 Update production.py with:
