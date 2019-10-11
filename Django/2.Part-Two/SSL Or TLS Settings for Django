@@ -8,7 +8,7 @@ That's where we'll be working.
     
 Update production.py with:
 
-python```
+```python
 CORS_REPLACE_HTTPS_REFERER      = True
 HOST_SCHEME                     = "https://"
 SECURE_PROXY_SSL_HEADER         = ('HTTP_X_FORWARDED_PROTO', 'https')
@@ -22,7 +22,7 @@ SECURE_FRAME_DENY               = True
 
 Update local.py & base.py to:
 
-python```
+```python
 CORS_REPLACE_HTTPS_REFERER      = False
 HOST_SCHEME                     = "http://"
 SECURE_PROXY_SSL_HEADER         = None
