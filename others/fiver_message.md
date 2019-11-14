@@ -9,8 +9,8 @@ Hi/Hello (Buyer Name)
     Regards (Your Name)
     
  Hi/Hello (Buyer Name)
-    I am Interested in your job. I am Perfect for your work. I will give you Finally Complete World class work. 
-    Can I Help you? Please Inform me.
+    I am Interested in your job. I am Perfect for your work. I will give you Finally Complete 
+    World class work. Can I Help you? Please Inform me.
     Regards (Your Name)
  ```
 
