@@ -95,11 +95,12 @@ Hi/Hello (Buyer Name)
 ### If angry Buyer (Impress Message)
 ```
 Hi/Hello (Buyer Name)
-    This is my best output. I am Expert ( your category ). if you are Satisfied with my last/final complete work,
-    please give me the 5-star review. if you are not Satisfied with my last/final complete work, please cancel your 
-    project. Because I accept 5-star feedback then $$. if you give me bad feedback, it will be a big problem for 
-    my gig and freelancing career. I think I could understand you.Hope you will help me positively.NB: if you have any 
-    kind of damage to my work. No Need your $$. I do not want you harm. I really love you, my Friend.
+    This is my best output. I am Expert ( your category ). if you are Satisfied with my last/final 
+    complete work,please give me the 5-star review. if you are not Satisfied with my last/final complete 
+    work, please cancel your project. Because I accept 5-star feedback then $$. if you give me bad 
+    feedback, it will be a big problem for my gig and freelancing career. I think I could understand you.
+    Hope you will help me positively.NB: if you have any kind of damage to my work. No Need your $$. 
+    I do not want you harm. I really love you, my Friend.
     Regards (Your Name)
 ```
 
@@ -114,10 +115,11 @@ Hi/Hello (Buyer Name)
 ### Bad Feedback Edit Message like impress (2 sample Message) (Live Fiverr Sample)
 ```
 Hi/Hello (Buyer Name)
-    I am proud to do your work. I’ve tried your work for the best. I’m expecting you five Star Review. All time 
-    I accept 5-star feedback then $$. if you give me bad feedback, it will be a big problem for my gig and freelancing career. 
-    I think I could understand you. Hope you will help me positively.NB: if you have any kind of damage to my work. 
-    No Need your $$. I do not want you harm. I really love you, my Friend.
+    I am proud to do your work. I’ve tried your work for the best. I’m expecting you five Star Review. 
+    All time I accept 5-star feedback then $$. if you give me bad feedback, it will be a big problem for 
+    my gig and freelancing career. I think I could understand you. Hope you will help me positively.
+    NB: if you have any kind of damage to my work. No Need your $$. I do not want you harm. 
+    I really love you, my Friend.
     Regards (Your Name)
 ```
 ### Monthly Inform Message.
