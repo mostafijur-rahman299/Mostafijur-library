@@ -134,12 +134,13 @@ Hi/Hello (Buyer Name)
 ### Buyer Request Message (2 Sample)
 ```
 Hi/Hello (Buyer Name)
-    I saw your Job Description. I have (—- year) Experience this work. Can I Help you? Please response me. 
-    I am waiting for your response.Regards (Your Name)
+    I saw your Job Description. I have (—- year) Experience this work. Can I Help you? 
+    Please response me. I am waiting for your response.
+    Regards (Your Name)
  
 Hi/Hello (Buyer Name)
-    I have a lot of Experience like work. I am perfect for your work. Can I Help you? Please call Me Interview. 
-    I am ready.
+    I have a lot of Experience like work. I am perfect for your work. Can I Help you? Please 
+    call Me Interview. I am ready.
     Regards (Your Name)
 ```
 ### Seller Disturb Message.
