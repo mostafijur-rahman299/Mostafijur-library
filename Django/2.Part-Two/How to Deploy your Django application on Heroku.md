@@ -17,7 +17,7 @@ $ sudo snap install --classic heroku
 $ heroku --version 
 ```
 ```python
-4. $ (venv) user@sdshoriot:~/Desktop/shoriot$ heroku login
+4. $ (venv) user@sdshoriot:~/Desktop/s$ heroku login
 ```
 
 5. Create: ```Procfile``` on project directory (beside the .gitignore file).
