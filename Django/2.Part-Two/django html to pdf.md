@@ -33,6 +33,7 @@ def render_to_pdf(template_src, context_dict):
         return response
     return HttpResponse('We had some errors<pre>%s</pre>' % escape(html))
     
+    
 def student_information_pdf(request):
     students = StudentAdmit.objects.all()
     deparments = Department.objects.filter(active=True)
@@ -40,7 +41,13 @@ def student_information_pdf(request):
         'students': students,
         'departments': deparments
         } 
-    return render_to_pdf('html_to_pdf.html',context)
+    pdf = render_to_pdf("html_to_pdf.html", context)
+    download = request.GET.get('download')
+    if download:
+        return pdf 
+    return HttpResponse(pdf, content_type='application/pdf')
+    
+    This code add to view section
 ```
 
 
