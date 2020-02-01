@@ -1,4 +1,4 @@
-# 1. How to image fields work in django?
+# 1. How to generate unique slug key?
 
 
 
