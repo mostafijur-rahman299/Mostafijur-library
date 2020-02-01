@@ -5,15 +5,15 @@
 ```python
 2. Signup & Login
 
-Name: SD Shoriot
+Name: xxxx
 
-Email: sdshoriot@gmail.com
+Email: xxx@gmail.com
 
 Pass: ********
 ```
 3. Now click on: **I want to install Disqus on my site**
 
-4. Now give your **Website Name** like: ```Shoriot```
+4. Now give your **Website Name** like: ```xxx.com```
 
 * Now select **Category** like: ```Tech```
 
