@@ -7,7 +7,7 @@ Reportlab, xhtml2pdf, html5lib, pypdf ইন্সটল করে ফেলু�
 
 pip install ...
 
-import io import BytesIO
+from io import BytesIO
 from xhtml2pdf import pisa
 from django.template.loader import get_template
 from django.template import Context
